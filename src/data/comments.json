@@ -1,0 +1,36 @@
+{
+  "comments": [
+    {
+      "id": "comment-1",
+      "siteId": "react-docs",
+      "author": "김개발",
+      "content": "정말 유용한 사이트입니다! 특히 새로운 Hook 문서가 잘 정리되어 있어요.",
+      "createdAt": "2024-03-15T10:30:00Z",
+      "parentId": null
+    },
+    {
+      "id": "comment-2",
+      "siteId": "react-docs",
+      "author": "이프론트",
+      "content": "맞아요! 예제도 이해하기 쉽게 되어있습니다.",
+      "createdAt": "2024-03-16T14:20:00Z",
+      "parentId": "comment-1"
+    },
+    {
+      "id": "comment-3",
+      "siteId": "github",
+      "author": "박백엔드",
+      "content": "GitHub Actions 문서도 정말 도움이 되었습니다.",
+      "createdAt": "2024-03-18T09:15:00Z",
+      "parentId": null
+    },
+    {
+      "id": "comment-4",
+      "siteId": "tailwind-css",
+      "author": "최디자인",
+      "content": "디자인 시스템 구축할 때 정말 편해요!",
+      "createdAt": "2024-03-20T16:45:00Z",
+      "parentId": null
+    }
+  ]
+}

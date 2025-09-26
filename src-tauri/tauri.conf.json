@@ -1,0 +1,42 @@
+{
+  "productName": "ICT Trading Journal",
+  "version": "0.1.0",
+  "identifier": "com.trading.journal",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../out",
+    "devUrl": "http://localhost:3003"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "ICT Trading Journal",
+        "width": 1200,
+        "height": 800,
+        "resizable": true,
+        "maximized": false,
+        "decorations": true
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self' 'unsafe-inline' 'unsafe-eval' data: http: https:"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "certificateThumbprint": null,
+      "digestAlgorithm": "sha256",
+      "timestampUrl": ""
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "sites": [
+    {
+      "id": "react-docs",
+      "title": "React 공식 문서",
+      "url": "https://react.dev",
+      "description": "React는 사용자 인터페이스를 구축하기 위한 JavaScript 라이브러리입니다. 최신 문서와 튜토리얼을 제공합니다.",
+      "category": "frontend",
+      "tags": ["React", "JavaScript", "문서", "프론트엔드"],
+      "submittedBy": "개발팀",
+      "submittedAt": "2024-01-15T09:00:00Z",
+      "rating": 4.8,
+      "ratingCount": 124
+    },
+    {
+      "id": "github",
+      "title": "GitHub",
+      "url": "https://github.com",
+      "description": "코드 호스팅 및 협업을 위한 플랫폼입니다. Git 기반의 버전 관리와 다양한 개발 도구를 제공합니다.",
+      "category": "tools",
+      "tags": ["Git", "협업", "버전관리", "도구"],
+      "submittedBy": "김개발",
+      "submittedAt": "2024-01-20T14:30:00Z",
+      "rating": 4.9,
+      "ratingCount": 89
+    },
+    {
+      "id": "tailwind-css",
+      "title": "Tailwind CSS",
+      "url": "https://tailwindcss.com",
+      "description": "유틸리티 우선의 CSS 프레임워크로 빠르게 맞춤형 사용자 인터페이스를 구축할 수 있습니다.",
+      "category": "frontend",
+      "tags": ["CSS", "프레임워크", "스타일링", "디자인"],
+      "submittedBy": "이디자인",
+      "submittedAt": "2024-02-01T11:15:00Z",
+      "rating": 4.7,
+      "ratingCount": 156
+    },
+    {
+      "id": "mdn-docs",
+      "title": "MDN Web Docs",
+      "url": "https://developer.mozilla.org",
+      "description": "웹 개발자를 위한 최고의 문서 자료입니다. HTML, CSS, JavaScript 등 웹 기술에 대한 포괄적인 정보를 제공합니다.",
+      "category": "docs",
+      "tags": ["HTML", "CSS", "JavaScript", "문서", "웹개발"],
+      "submittedBy": "박웹개발",
+      "submittedAt": "2024-02-10T16:45:00Z",
+      "rating": 4.9,
+      "ratingCount": 203
+    },
+    {
+      "id": "figma",
+      "title": "Figma",
+      "url": "https://figma.com",
+      "description": "협업 가능한 인터페이스 디자인 도구입니다. 실시간으로 팀과 함께 디자인하고 프로토타입을 만들 수 있습니다.",
+      "category": "design",
+      "tags": ["디자인", "프로토타입", "협업", "UI/UX"],
+      "submittedBy": "최UI",
+      "submittedAt": "2024-02-15T13:20:00Z",
+      "rating": 4.6,
+      "ratingCount": 78
+    }
+  ],
+  "categories": [
+    {
+      "id": "frontend",
+      "name": "프론트엔드",
+      "description": "웹 프론트엔드 개발 관련 사이트"
+    },
+    {
+      "id": "backend",
+      "name": "백엔드",
+      "description": "서버 사이드 개발 관련 사이트"
+    },
+    {
+      "id": "tools",
+      "name": "개발도구",
+      "description": "개발에 유용한 도구와 서비스"
+    },
+    {
+      "id": "design",
+      "name": "디자인",
+      "description": "UI/UX 디자인 관련 사이트"
+    },
+    {
+      "id": "docs",
+      "name": "문서",
+      "description": "개발 문서 및 레퍼런스"
+    },
+    {
+      "id": "devops",
+      "name": "DevOps",
+      "description": "배포, 인프라, CI/CD 관련 사이트"
+    }
+  ]
+}
